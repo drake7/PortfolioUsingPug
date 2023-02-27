@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Deepak Portfolio",
+            "description":"This is my portfolio to provide basic information about my self",
+            "technologies":[
+                "HTML", 
+                "CSS", 
+                "JavaScript"],
+            "live":"https://drake7.github.io/index.html",
+            "github":"https://github.com/drake7/GetSpace/tree/init",
+            "images":[
+                {"url":"/static/img/deepakPortfolio.png",
+                "main":true},
+                {"url":"/static/img/portfolioAbout.png",
+                "main":false}            ]
+        },{
+            "id": 2,
+            "project_name": "GetSpace",
+            "description":"This app provides the user to choose from multiple different properties for renting purposes",
+            "technologies":[
+                "Spring", 
+                "Android", 
+                "Firebase"],
+            "live":"",
+            "github":"https://github.com/drake7/GetSpace/tree/init",
+            "images":[
+                {"url":"/static/img/appMain.png",
+                "main":true},
+                {"url":"/static/img/getspacegal.jpg",
+                "main":false},
+                {"url":"/static/img/getspacemain.jpg",
+                "main":false}
+            ]
+        },{
+            "id": 3,
+            "project_name": "Contacts",
+            "description":"This app provides the user to choose from multiple different properties for renting purposes",
+            "technologies":[
+                "HTML", 
+                "CSS", 
+                "JS"],
+            "live":"https://drake7.github.io/project2.github.io/",
+            "github":"https://github.com/drake7/project2.github.io",
+            "images":[
+                {"url":"/static/img/contactsMain.png",
+                "main":true},
+                {"url":"/static/img/contactsMain.png",
+                "main":false}
+            ]
+        }
+    ]
+}
