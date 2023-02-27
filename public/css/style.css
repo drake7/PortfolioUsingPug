@@ -1,0 +1,239 @@
+/* Fonts */
+h1,h2,h3,h4,h5,p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h5{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+h6{
+  letter-spacing: 1px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Text colors */
+.text-light{
+  color: #8a8a8a;
+}
+
+/* Buttons */
+.button{
+  background-color: #546e7a;
+  color: #fff;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover{
+  background-color: #455a64;
+}
+
+/* Links */
+a{
+  color: #607d8b;
+}
+
+a:hover{
+  color: #455a64;
+}
+
+/* Images */
+.image{
+  display: inline-block;
+  max-width: 550px;
+  max-height: 500px;
+  margin-bottom: 1rem;
+  border: solid 4px #eee;
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  line-height: 0;
+}
+
+/* Portfolio section */
+.portfolio-me{
+  padding: 20px;
+  background: #455a64;
+  color: #fff;
+}
+
+.portfolio-me p{
+  font-size: 14px;
+  color: #bbb;
+}
+
+.portfolio-me a{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 1px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.portfolio-me a:hover{
+  color: #ccc;
+}
+
+.portfolio-breadcrumb{
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.portfolio-breadcrumb a{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  color: #455a64;
+}
+
+.portfolio-intro{
+  margin: 0;
+  padding: 40px 50px 30px;
+}
+
+.portfolio-intro p{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+}
+
+.portfolio-index{
+  margin: 0;
+  padding: 10px 50px;
+}
+
+.portfolio-index .thumbnail{
+  margin-bottom: 5px;
+  width: 550px;
+  height: 250px;
+}
+
+.portfolio-index a{
+  color: #455a64;
+}
+
+.portfolio-index .cell{
+  margin-bottom: 15px;
+}
+
+.portfolio-index .cell h5{
+  letter-spacing: 1px;
+}
+
+.portfolio-meta{
+  padding-left: 20px;
+}
+
+.portfolio-meta .button{
+  margin-bottom: 5px;
+}
+
+.portfolio-project p{
+  border: none;
+}
+
+.portfolio-project p{
+  border: none;
+}
+
+.portfolio-project li{
+  font-size: 13px;
+  color: #444;
+}
+
+.portfolio-bio{
+    line-height: 25px;
+}
+
+.project-card {
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.thumbnail {
+  transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.project-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.project-card a:hover {
+  background-color: #3E8E41;
+}
+
+ol.skills, ol.skills ul {
+  margin:0;
+}
+ol.skills {
+  margin-bottom:1rem;
+}
+.contact, .skills p {
+  margin-left:.5rem;					  
+}
+.skills li, .contact li {
+				   
+				  
+  margin-left:1.25rem;
+}
+.skills p {
+  margin-bottom:0;
+  padding:0;
+  border:0;
+  font-size:13px;
+}
+.skills p::before {
+  content:"-"
+						
+							
+			   
+				
+					 
+						
+				   
+}
+.skills p::after {
+  content:"-"
+							
+}

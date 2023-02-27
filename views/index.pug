@@ -1,0 +1,24 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+
+      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
+      h1 Deepak Kumar
+      //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+      p.lead.text-light
+        | As a Java developer, my portfolio showcases my expertise in creating robust, scalable, and secure Java applications. My experience includes developing both back-end and front-end applications, using popular Java frameworks such as Spring and Hibernate. I am also skilled in creating RESTful APIs, working with databases such as MySQL and Oracle, and utilizing tools such as Git, Maven, and Jenkins. My portfolio demonstrates my ability to create applications that meet business requirements, are efficient, and have minimal downtime. In addition, my portfolio also highlights my ability to work collaboratively with other developers and stakeholders, my attention to detail, and my passion for creating high-quality software. Overall, my portfolio demonstrates my proficiency as a Java developer and my ability to create software solutions that are both functional and reliable.
+  article.grid-container.portfolio-index
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
+      
+      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
+      each project in projects
+        .cell
+          a(href=`/projects/${project.id}`)
+            if project.images[0].main
+              img.thumbnail(src=project.images[0].url alt=`Project-${project.id}`)
+            h5=project.project_name
+      //- Here's what the Pug for each project example should look like. 
